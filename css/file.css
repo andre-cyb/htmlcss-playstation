@@ -3,6 +3,7 @@
 }
 :root{
     --bs-dark: #000000;
+    --bs-gray-dark: #1F1F1F;
 }
 .container{
     max-width: 95%;
@@ -11,6 +12,8 @@ h2{  font-size: 2.5rem;}
 h3{  font-size: 2.3rem;}
 h4{  font-size: 1.3rem;}
 h5, small, footer{  font-size: 0.9rem;}
+
+
 
 
 .btn-primary {
@@ -39,7 +42,7 @@ h5, small, footer{  font-size: 0.9rem;}
     padding-bottom: 50px;
 }
 .section_super, .section_text{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .section_title{
     margin-bottom: 30px;
@@ -65,9 +68,25 @@ h5, small, footer{  font-size: 0.9rem;}
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }
+.it-takes-two_image{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
 
 
 .rounded_thumbnail{
     border-radius: 30px;
     /* border: 2px solid lightskyblue; */
+}
+
+
+
+/********** ATTENZIONE CAMBIARE DOPO ***********/ 
+.padding_col-4{
+    padding-right: 190px;
+}
+/********** ATTENZIONE CAMBIARE DOPO ***********/ 
+
+.play_plus_bg{
+    background-color: #BEBCBB;
 }
