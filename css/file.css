@@ -4,11 +4,52 @@
 :root{
     --bs-dark: #000000;
 }
+.container{
+    max-width: 95%;
+}
+h2{  font-size: 2.5rem;}
+h3{  font-size: 2.3rem;}
+h4{  font-size: 1.3rem;}
+h5, small, footer{  font-size: 0.9rem;}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
 .btn-secondary {
     color: #fff;
     background-color: #727272;
     border-color: #727272;
 }
+
+
+.section_small{
+    padding: 40px 0px;
+}
+.section_medium{
+    padding: 60px 0px;
+}
+.section_large{
+    padding: 100px 0px;
+}
+.section_main_hero{
+    padding-top: 320px;
+    padding-bottom: 50px;
+}
+.section_super, .section_text{
+    margin-bottom: 5px;
+}
+.section_title{
+    margin-bottom: 30px;
+}
+.section_subtitle{
+    margin-bottom: 10px;
+}
+/* .section_text{
+    margin-bottom: 20px;
+} */
 
 
 
@@ -18,4 +59,15 @@
 }
 .navbar_row{
     flex-direction: row;
+}
+
+.hero_img{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}
+
+
+.rounded_thumbnail{
+    border-radius: 30px;
+    /* border: 2px solid lightskyblue; */
 }
