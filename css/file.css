@@ -4,6 +4,14 @@
 :root{
     --bs-dark: #000000;
 }
+.btn-secondary {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+}
+
+
+
 .header-bar-sony img{
     width: 120px;
     padding: 10px;
