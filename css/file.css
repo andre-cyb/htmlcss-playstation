@@ -1,0 +1,13 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+}
+:root{
+    --bs-dark: #000000;
+}
+.header-bar-sony img{
+    width: 120px;
+    padding: 10px;
+}
+.navbar_row{
+    flex-direction: row;
+}
