@@ -1,0 +1,48 @@
+*{
+    font-family: arial, sans-serif; 
+}
+
+/* SPAZIATURE */
+.section_small{
+    padding: 40px 0px;
+}
+.section_medium{
+    padding: 60px 0px;
+}
+.section_large{
+    padding: 100px 0px;
+}
+.section_main_hero{
+    padding-top: 320px;
+    padding-bottom: 50px;
+}
+.section_super, .section_text{
+    margin-bottom: 0px;
+}
+.section_title{
+    margin-bottom: 30px;
+}
+.section_subtitle{
+    margin-bottom: 10px;
+}
+footer ul li{
+    padding: 8px 0px;
+}
+footer .col-2{
+    padding-left: 90px;
+}
+.pad_foot{
+    padding-right: 100px;
+}
+
+/* DIMENSIONI */
+h2{  font-size: 2.5rem;}
+h3{  font-size: 2.3rem;}
+h4{  font-size: 1.3rem;}
+h5, small, footer{  font-size: 0.9rem;}
+
+/* LINK */
+a{
+    text-decoration: none;
+    color: white;
+}

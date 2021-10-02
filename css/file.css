@@ -1,44 +1,12 @@
-*{
-    font-family: arial, sans-serif; 
-}
-/* :root{
-    --bs-dark: #000000;
-    --bs-gray-dark: #1F1F1F;
-} */
 
 
 /* COLORI */
 .text-info{
     color: #0072CE!important; 
 }
-.btn-light {
-    color: #2D64E6;
-    background-color: #D9DADC;
-    border-color: #D9DADC;
+footer a:hover {
+    color: #ffffff;
 }
-.btn-info {
-    color: #ffff;
-    background-color: #2D64E6;
-    border-color: #2D64E6;
-}
-.btn-info:hover{
-    color: #ffff;
-    background-color: #2D64E6;
-    border-color: #2D64E6;
-    box-shadow: 1px 3px 10px rgb(137, 147, 160);
-}
-.my-btn-primary:hover{
-    color: #fff;
-    background-color: #CD3D0F;
-    border-color: #CD3D0F;
-}
-.btn-primary:focus {
-    color: #fff;
-    background-color: #CD3D0F;
-    border-color: #CD3D0F;
-    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
-}
-
 .bg-dark{
     background-color: #000000 !important;
 }
@@ -63,51 +31,7 @@
 }
 footer{
     background-color: #00439C;
-}
-
-h2{  font-size: 2.5rem;}
-h3{  font-size: 2.3rem;}
-h4{  font-size: 1.3rem;}
-h5, small, footer{  font-size: 0.9rem;}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-/* SPAZIATURE */
-.section_small{
-    padding: 40px 0px;
-}
-.section_medium{
-    padding: 60px 0px;
-}
-.section_large{
-    padding: 100px 0px;
-}
-.section_main_hero{
-    padding-top: 320px;
-    padding-bottom: 50px;
-}
-.section_super, .section_text{
-    margin-bottom: 0px;
-}
-.section_title{
-    margin-bottom: 30px;
-}
-.section_subtitle{
-    margin-bottom: 10px;
-}
-footer ul li{
-    padding: 8px 0px;
-}
-footer .col-2{
-    padding-left: 90px;
-}
-.pad_foot{
-    padding-right: 100px;
-}
-
+} 
 .header-bar-sony img{
     width: 100px;
     padding: 10px;
@@ -133,7 +57,7 @@ footer .col-2{
 
 
 .rounded_thumbnail{
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .sony_logo, .sony_interactive_logo{
     width: 150px;   
@@ -166,10 +90,55 @@ footer .col-2{
     right: -6px;
     bottom: -6px;
     border: 3px solid #1980D3;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 
+
+
+
+
+/********** BONUS ***********/
+/**** BUTTONS *****/
+.btn-light {
+    color: #2D64E6;
+    background-color: #D9DADC;
+    border-color: #D9DADC;
+}
+/***** btn danger ******/
+.btn-danger:hover {
+    box-shadow: 0 0 0 0.25rem rgb(200 66 80 / 58%);
+}
+.btn-danger, .btn-danger:focus, .btn-danger:hover, .btn-danger:active{
+    color: #fff;
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
+/****** btn light *******/
+.btn-light:hover {
+    color: #000;
+    background-color: #D9DADC;
+    border-color: #D9DADC;
+    box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 30%);
+    
+}
+.btn-light, .btn-light:focus, .btn-light:hover, .btn-light:active{
+    color: rgb(45 100 230);
+    background-color: #D9DADC;
+    border-color: #D9DADC;
+}
+/**** btn info ****/
+.btn-info {
+    color: #ffff;
+    background-color: #2D64E6;
+    border-color: #2D64E6;
+}
+.btn-info:hover{
+    color: #ffff;
+    background-color: #2D64E6;
+    border-color: #2D64E6;
+    box-shadow: 0 0 0 0.25rem rgb(45 100 230 / 58%);
+}
 .my_opacity{
     opacity: .5;
     transition: all .2s linear;
@@ -177,3 +146,26 @@ footer .col-2{
 .my_opacity:hover{
     opacity: 1;
 }
+.animation_img{
+    position: relative;
+    bottom: 0px;
+    transition: all .3s ease-in-out;
+}
+.animation_img:hover{
+    bottom: 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2D64E6;
+}
+.nav-link {
+    transition:none;
+}
+.chevron_hover{
+    display: none;
+}
+.nav-item:hover .chevron_hover{
+    display: inline-block;
+}
+.nav-item:hover .chevron_d_none_hover{
+    display: none;
+} 
