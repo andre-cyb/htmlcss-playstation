@@ -38,7 +38,7 @@ footer{
 }
 .navbar-light .navbar-nav .nav-link{
     color: #1f1f1f;
-    font-size: 18px;
+    font-size: 15px;
 }
 .navbar_row{
     flex-direction: row;
@@ -53,6 +53,7 @@ footer{
 .it-takes-two_image{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 
